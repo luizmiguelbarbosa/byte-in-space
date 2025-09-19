@@ -90,13 +90,6 @@ Arquivos de assets do jogo. Ex: `Imagens`, `Músicas` e `Vídeos`
 │   └── videos
 │       └── cutscene1.mp4
 ```
-## Capturas de Tela 🎮📸
-<p align="center">
-  <img src="assets/caputuras/1.png" alt="Captura 1" width="300">
-  <img src="assets/caputuras/2.png" alt="Captura 2" width="300">
-  <img src="assets/caputuras/3.png" alt="Captura 3" width="300">
-</p>
-
 ## Bibliotecas Utilizadas 📚
 ```bash
 pygame 2.6.1
