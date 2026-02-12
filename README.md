@@ -1,6 +1,6 @@
 # Byte in Space 🐶🚀💫
 
-## Equipe 🧑‍💻
+## Team 🧑‍💻
 <table>
   <tr>
     <td align="center">
@@ -40,13 +40,13 @@
   </tr>
 </table>
 
-## Instalando o jogo ⚙️🛠️
+## Installing the Game ⚙️🛠️
 
-Clone o repositório
+Clone the repository:
 ```bash
 git clone https://github.com/luizmiguelbarbosa/byte_in_space.git
 ```
-No PowerShell, execute:
+In PowerShell, run:
 ```bash
 Set-ExecutionPolicy RemoteSigned -Scope Process
 & byte_in_space/venv/Scripts/Activate.ps1
@@ -57,10 +57,10 @@ cd byte_in_space
 ```bash
 pip install -r requirements.txt
 ```
-## Estruturas de Pastas 📂
-Arquitetura de Pastas do Projeto
+## Folder Structure 📂
+Project Folder Architecture
 ### entites
-Classes das entidades do jogo. Ex: `Player`, `Inimigos` e `Coletáveis`
+Game entity classes. Example: `Player`, `Enemies` e `Collectibles`
 ```bash
 ├── entities
 │   ├── coletavel.py
@@ -71,7 +71,7 @@ Classes das entidades do jogo. Ex: `Player`, `Inimigos` e `Coletáveis`
 │   └── update.py
 ```
 ### assets
-Arquivos de assets do jogo. Ex: `Imagens`, `Músicas` e `Vídeos`
+Game asset files. Example: `Images`, `Music` e `Videos`
 ```bash
 ├── assets
 │   ├── imagens
@@ -90,14 +90,14 @@ Arquivos de assets do jogo. Ex: `Imagens`, `Músicas` e `Vídeos`
 │   └── videos
 │       └── cutscene1.mp4
 ```
-## Bibliotecas Utilizadas 📚
+## Libraries Used 📚
 ```bash
 pygame 2.6.1
 openCV2 4.12.0
 random
 sys
 ```
-## Divisão de Tarefas do Projeto 🌌
+## Project Task Distribution 🌌
 
 <p align="center">
 <table align="center">
@@ -107,39 +107,38 @@ sys
   </tr>
   <tr>
     <td><a href="https://github.com/gustavocharamba?tab=overview&from=2025-08-01&to=2025-08-11">Gustavo Charamba</a></td>
-    <td>Desenvolveu estados de controle do jogo e lógica envolvendo itens</td>
+    <td>Developed the game control states and logic involving items</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/lgss0">lgss0</a></td>
-    <td>Desenvolveu todas as responsividades do jogo</td>
+    <td><a href="https://github.com/lgss0">Luiz Gabriel</a></td>
+    <td>Developed all game responsiveness features</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/SmouraCodeX">SmouraCodeX</a></td>
-    <td>Desenvolveu telas iniciais, créditos, game over e mecânica de tiros com a barra de espaço</td>
+    <td><a href="https://github.com/SmouraCodeX">Rafael</a></td>
+    <td>Developed initial screens, credits, game over screen, and shooting mechanics using the space baro</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/lebb8">lebb8</a></td>
-    <td>Desenvolveu colisões entre todos os objetos do projeto</td>
+    <td><a href="https://github.com/lebb8">Eduardo</a></td>
+    <td>Developed collision handling between all project objects</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/luizmiguelbarbosa">luizmiguelbarbosa</a></td>
-    <td>Principal code reviewer, desenvolveu a classe base de entidades e movimentação do player</td>
+    <td><a href="https://github.com/luizmiguelbarbosa">Luiz Miguel</a></td>
+    <td>Main code reviewer, developed the base entity class and player movement</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/miqueias-santos">miqueias-santos</a></td>
-    <td>Auxiliou no design e contribuiu para otimizações de desempenho do projeto</td>
+    <td><a href="https://github.com/miqueias-santos">Miqueias</a></td>
+    <td>Assisted with design and contributed to performance optimizations</td>
   </tr>
 </table>
 
-## Conceitos Utilizados
-Aplicamos desde os fundamentos como listas e estruturas de repetição, até os tópicos avançados, incluindo os princípios iniciais da Programação Orientada a Objetos (POO).
+## Concepts Used
+We applied everything from fundamental concepts such as lists and loop structures to more advanced topics, including the foundational principles of Object-Oriented Programming (OOP).
 
-A utiilização de funções, loops e condicionais foram cruciais para o desenvolvimento do jogo, visto que, contribuem imensamente para a escalabilidade e organização do código.
+The use of functions, loops, and conditionals was crucial for the development of the game, as they significantly contributed to the scalability and organization of the code.
 
-Além disso Orientação a objetos nos permitiu a estruturação e construção do código em torno da organização em classes e suas funções associadas, a capacidade de gerenciar cada objeto de forma independente simplificou o processo de escrita do código e significativamente aprimorou a sua legibilidade.
+Additionally, Object-Oriented Programming allowed us to structure and build the code around organized classes and their associated methods. The ability to manage each object independently simplified the development process and significantly improved code readability.
 
-## Desafios e Erros
-Enfrentamos alguns desafios durante o projeto, especialmente relacionados ao planejamento e à priorização de tarefas dentro da equipe. Sendo o principal problema a falta de priorização nas tarefas fundamentais, o que nos levou a gastar um tempo considerável reescrevendo parte da base do código, juntamente com as implementações que já tínhamos concluído. Como resultado, enfrentamos diversos problemas de conflito e integração entre diferentes branches.
+## Challenges and Issues
+We faced several challenges during the project, especially related to planning and task prioritization within the team. The main issue was the lack of prioritization of fundamental tasks, which led us to spend considerable time rewriting part of the codebase along with implementations that had already been completed. As a result, we encountered multiple merge conflicts and integration issues between different branches.
 
-Todos do time com certeza levaram como maior lição que um bom planejamento com priorizações certas são tão cruciais quanto bons conhecimentos técnicos.
-
+Everyone on the team certainly learned that good planning and proper prioritization are just as crucial as strong technical knowledge.
